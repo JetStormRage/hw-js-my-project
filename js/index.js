@@ -1,6 +1,6 @@
 function destroy() {
     document.querySelector('html').innerHTML = '';
-    document.querySelector('html').style.backgroundImage = "url(../img/shrek.jpg)";
+    document.querySelector('html').style.backgroundImage = "url(img/shrek.jpg)";
     document.querySelector('html').style.backgroundSize = '10%';
     
        
