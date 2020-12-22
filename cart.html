@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Корзина</title>
+</head>
+<body>
+    <h1>Корзина</h1>
+    <table>
+        <tr>
+            <th>Товар</th>
+            <th>Цена</th>
+            <th>Кол-во</th>
+            <th></th>
+            <th></th>
+        </tr>
+        <tr>
+            <td>Шампуры</td>
+            <td>150</td>
+            <td>3</td>
+            <td><button>+</button></td>
+            <td><button>-</button></td>
+        </tr>
+        <tr>
+            <td>Мангал</td>
+            <td>500</td>
+            <td>2</td>
+            <td><button>+</button></td>
+            <td><button>-</button></td>
+        </tr>
+        <tr>
+            <td>Сумма</td>
+            <td>650</td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <form method="POST" action="https://formspree.io/f/mpzoyavo">
+        <label>Имя:
+            <input type="text" name="name" placeholder="Имя">
+        </label>
+        <label>Почта:
+            <input type="email" name="email" placeholder="email" required>
+        </label>
+        <input type="submit">
+    </form>
+</body>
+</html>

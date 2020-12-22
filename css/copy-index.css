@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:wght@300;400&display=swap");
+
+:root {
+  background-color: gainsboro;
+  margin: 50px 100px 50px 100px;
+}
+
+img {
+  max-width: 200px;
+}
+.header-text {
+  color: white;
+}
+
+header {
+  height: 360px;
+  background-image: url(../img/shamp1.jpg);
+}
+
+.header-text {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  margin-left: 100px;
+}
+h1 {
+  text-align: center;
+  font-size: 32px;
+  color: white;
+  margin-top: -50px;
+  background-color: red;
+}
+h2 {
+  color: aliceblue;
+  text-align: center;
+  background-color: brown;
+  height: 90px;
+  padding-top: 50px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 210px;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+  height: 100px;
+}
+
+nav a {
+  color: black;
+  background-color: red;
+  margin-left: 50px;
+  font-size: 20px;
+  font-family: monospace;
+  text-decoration: none;
+}
+
+.catalog-block {
+  background-color: black;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.product-card {
+  background-color: white;
+  padding: 50px 10px 5px 15px;
+  margin: 100px 20px 20px 50px;
+  font-family: "Open Sans", sans-serif;
+  width: 300px;
+  text-align: center;
+}
+
+#stocks {
+  width: 1100px;
+  text-align: center;
+  font-size: 32px;
+  background-color: grey;
+  padding-left: 105px;
+}
+
+.stock-cards {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: yellow;
+  padding-left: 90px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  height: 700px;
+  margin-top: -20px;
+}
+
+.stock-card {
+  background-color: white;
+  padding: 50px 10px 5px 15px;
+  margin: 10px 20px 20px 10px;
+  font-family: "Open Sans", sans-serif;
+  width: 300px;
+  text-align: center;
+}
+
+.about-us-block {
+  background-color: brown;
+  text-align: center;
+  padding-left: 90px;
+  padding-right: 90px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  margin-top: 50px;
+}
+#about-us {
+  font-size: 36px;
+  font-family: "Open Sans", sans-serif;
+}
+.about-us-photo,
+.about-us-info {
+  display: inline-block;
+}
+
+.news-block {
+  background-color: floralwhite;
+  text-align: center;
+  height: 500px;
+}
+
+#new-items {
+  font-size: 36px;
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h5 {
+  font-size: 36px;
+}
+
+.news-cards {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.new-item {
+  padding-left: 110px;
+  padding-right: 90px;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  margin-left: 125px;
+  margin-top: -20px;
+  margin-bottom: 0px;
+  background-color: teal;
+  height: 200px;
+}
+
+.why-we-block {
+  background-color: fuchsia;
+  text-align: center;
+  font-family: sans-serif;
+  display: flex;
+  flex-wrap: wrap;
+}
+.reason {
+  width: 250px;
+  margin-left: 50px;
+  margin-top: 30px;
+}
+
+.blog-block {
+  background-color: gold;
+  text-align: center;
+  height: 1000px;
+}
+
+.offer {
+  background-color: indianred;
+  text-align: center;
+}
+
+#contacts {
+  background-color: purple;
+  text-align: center;
+}
+
+.all-products-button {
+  text-decoration: none;
+  background-color: red;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}

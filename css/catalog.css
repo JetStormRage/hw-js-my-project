@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans:wght@300;400&display=swap");
+
+:root {
+  background-color: gainsboro;
+  margin: 50px 100px 50px 100px;
+}
+
+body {
+  max-width: 1300px;
+}
+
+img {
+  max-width: 200px;
+}
+h1 {
+  text-align: center;
+  color: aliceblue;
+}
+
+.banner {
+  color: aliceblue;
+  font-size: 24px;
+  background-image: url(../img/shamp1.jpg);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.banner p {
+  background-color: green;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Libre Baskerville", serif;
+  font-size: 3.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: wheat;
+  color: black;
+}
+
+.main-menu a {
+  display: block;
+  justify-content: space-around;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: black;
+  border: 1px solid transparent;
+  margin: auto;
+  width: auto;
+  height: auto;
+  background-color: khaki;
+}
+
+.main-menu a:hover {
+  border-color: blue;
+  font-weight: bold;
+}
+
+@media (min-width: 800px) {
+  header nav {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  header nav .main-menu {
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+  }
+}
+
+h2 {
+  background-color: white;
+  font-size: 36px;
+  text-align: center;
+}
+
+.catalog-block {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 690px) {
+  .catalog-block {
+    display: grid;
+    grid-template-columns: repeat(1, 6fr);
+  }
+}
+
+@media (min-width: 750px) {
+  .catalog-block {
+    display: grid;
+    grid-template-columns: repeat(2, 3fr);
+  }
+}
+
+@media (min-width: 980px) {
+  .catalog-block {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+  }
+}
+
+.catalog-item {
+  display: block;
+  border: 1px solid blue;
+  margin: 10px;
+  padding: 5px;
+}
+
+.catalog-item p {
+  text-align: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  width: auto;
+}
+
+.catalog-item img {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
+.catalog-item .buttons {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button {
+  padding: 0.35em 1.2em;
+  border: 0.1em solid #ffffff;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  color: #ffffff;
+  text-align: center;
+  transition: color 0.7s;
+  background-color: transparent;
+}
+
+.button:hover {
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+}
+
+.card-button {
+  border-color: black;
+  color: black;
+}
+
+.card-button:hover {
+  background-color: black;
+  color: white;
+}
+
+.offer-block {
+  justify-content: center;
+}
+
+form label {
+  display: inline-block;
+  min-width: 120px;
+}
